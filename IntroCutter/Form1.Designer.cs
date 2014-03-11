@@ -28,7 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.components = new System.ComponentModel.Container();            
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.patternText = new System.Windows.Forms.TextBox();
             this.patternLabel = new System.Windows.Forms.Label();
             this.debugText = new System.Windows.Forms.TextBox();
@@ -39,6 +40,10 @@
             this.inFolderBrowser = new System.Windows.Forms.FolderBrowserDialog();
             this.patternHelpProvider = new System.Windows.Forms.HelpProvider();
             this.patternToolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.sourceVideoDialog = new System.Windows.Forms.OpenFileDialog();
+            this.rootFileLabel = new System.Windows.Forms.Label();
+            this.sourceVideoName = new System.Windows.Forms.TextBox();
+            this.selectSourceVideo = new System.Windows.Forms.Button();                        
             this.SuspendLayout();
             // 
             // patternText
@@ -48,6 +53,7 @@
             this.patternText.Size = new System.Drawing.Size(100, 20);
             this.patternText.TabIndex = 0;
             this.patternText.Text = "*.avi";
+            this.patternToolTip.SetToolTip(this.patternText, "Use patterns in format: *.avi,*.mp4");
             // 
             // patternLabel
             // 
@@ -118,13 +124,47 @@
             this.patternToolTip.ShowAlways = true;
             this.patternToolTip.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
             this.patternToolTip.ToolTipTitle = "Use patterns in format: *.avi,*.mp4";
-            this.patternToolTip.SetToolTip(this.patternText, this.patternToolTip.ToolTipTitle);            
+            // 
+            // sourceVideoDialog
+            // 
+            this.sourceVideoDialog.FileName = "openFileDialog1";
+            // 
+            // rootFileLabel
+            // 
+            this.rootFileLabel.AutoSize = true;
+            this.rootFileLabel.Location = new System.Drawing.Point(14, 125);
+            this.rootFileLabel.Name = "rootFileLabel";
+            this.rootFileLabel.Size = new System.Drawing.Size(87, 13);
+            this.rootFileLabel.TabIndex = 7;
+            this.rootFileLabel.Text = "Source Video file";
+            // 
+            // sourceVideoName
+            // 
+            this.sourceVideoName.Location = new System.Drawing.Point(109, 125);
+            this.sourceVideoName.Name = "sourceVideoName";
+            this.sourceVideoName.ReadOnly = true;
+            this.sourceVideoName.Size = new System.Drawing.Size(100, 20);
+            this.sourceVideoName.TabIndex = 8;
+            // 
+            // selectSourceVideo
+            // 
+            this.selectSourceVideo.Location = new System.Drawing.Point(216, 124);
+            this.selectSourceVideo.Name = "selectSourceVideo";
+            this.selectSourceVideo.Size = new System.Drawing.Size(30, 21);
+            this.selectSourceVideo.TabIndex = 9;
+            this.selectSourceVideo.Text = "...";
+            this.selectSourceVideo.UseVisualStyleBackColor = true;
+            this.selectSourceVideo.Click += new System.EventHandler(this.selectSourceVideo_Click);
+            
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1218, 549);
+            this.ClientSize = new System.Drawing.Size(1218, 549);            
+            this.Controls.Add(this.selectSourceVideo);
+            this.Controls.Add(this.sourceVideoName);
+            this.Controls.Add(this.rootFileLabel);
             this.Controls.Add(this.pathSelectButton);
             this.Controls.Add(this.pathLabel);
             this.Controls.Add(this.pathText);
@@ -133,7 +173,7 @@
             this.Controls.Add(this.patternLabel);
             this.Controls.Add(this.patternText);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Form1";            
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -151,6 +191,10 @@
         public System.Windows.Forms.FolderBrowserDialog inFolderBrowser;
         private System.Windows.Forms.HelpProvider patternHelpProvider;
         private System.Windows.Forms.ToolTip patternToolTip;
+        private System.Windows.Forms.OpenFileDialog sourceVideoDialog;
+        private System.Windows.Forms.Label rootFileLabel;
+        private System.Windows.Forms.TextBox sourceVideoName;
+        private System.Windows.Forms.Button selectSourceVideo;
     }
 }
 

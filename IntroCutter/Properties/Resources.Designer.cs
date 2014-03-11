@@ -8,10 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace IntroCutter.Properties
-{
-
-
+namespace IntroCutter.Properties {
+    using System;
+    
+    
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -22,49 +22,1723 @@ namespace IntroCutter.Properties
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources
-    {
-
+    internal class Resources {
+        
         private static global::System.Resources.ResourceManager resourceMan;
-
+        
         private static global::System.Globalization.CultureInfo resourceCulture;
-
+        
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources()
-        {
+        internal Resources() {
         }
-
+        
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager
-        {
-            get
-            {
-                if ((resourceMan == null))
-                {
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("IntroCutter.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
             }
         }
-
+        
         /// <summary>
         ///   Overrides the current thread's CurrentUICulture property for all
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture
-        {
-            get
-            {
+        internal static global::System.Globalization.CultureInfo Culture {
+            get {
                 return resourceCulture;
             }
-            set
-            {
+            set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to /*
+        /// * Copyright (c) 2001 Fabrice Bellard
+        /// *
+        /// * Permission is hereby granted, free of charge, to any person obtaining a copy
+        /// * of this software and associated documentation files (the &quot;Software&quot;), to deal
+        /// * in the Software without restriction, including without limitation the rights
+        /// * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        /// * copies of the Software, and to permit persons to whom the Software is
+        /// * furnished to do so, subject to the following conditions:
+        /// *
+        /// * The above c [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string avcodec {
+            get {
+                return ResourceManager.GetString("avcodec", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to /*
+        /// * Copyright (c) 2014 Stefano Sabatini
+        /// *
+        /// * Permission is hereby granted, free of charge, to any person obtaining a copy
+        /// * of this software and associated documentation files (the &quot;Software&quot;), to deal
+        /// * in the Software without restriction, including without limitation the rights
+        /// * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        /// * copies of the Software, and to permit persons to whom the Software is
+        /// * furnished to do so, subject to the following conditions:
+        /// *
+        /// * The above  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string avio_reading {
+            get {
+                return ResourceManager.GetString("avio_reading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 
+        ///--------------------------------------------------------------------------
+        ///
+        ///This program, &quot;bzip2&quot;, the associated library &quot;libbzip2&quot;, and all
+        ///documentation, are copyright (C) 1996-2010 Julian R Seward.  All
+        ///rights reserved.
+        ///
+        ///Redistribution and use in source and binary forms, with or without
+        ///modification, are permitted provided that the following conditions
+        ///are met:
+        ///
+        ///1. Redistributions of source code must retain the above copyright
+        ///   notice, this list of conditions and the following disclaimer. [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string bzip2 {
+            get {
+                return ResourceManager.GetString("bzip2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to /*
+        /// * Copyright (c) 2012 Stefano Sabatini
+        /// *
+        /// * Permission is hereby granted, free of charge, to any person obtaining a copy
+        /// * of this software and associated documentation files (the &quot;Software&quot;), to deal
+        /// * in the Software without restriction, including without limitation the rights
+        /// * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        /// * copies of the Software, and to permit persons to whom the Software is
+        /// * furnished to do so, subject to the following conditions:
+        /// *
+        /// * The above  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string demuxing_decoding {
+            get {
+                return ResourceManager.GetString("demuxing_decoding", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;!-- Created on March 10, 2014 by texi2html 1.82 --&gt;
+        ///&lt;!--
+        ///texi2html was written by: 
+        ///            Lionel Cons &lt;Lionel.Cons@cern.ch&gt; (original author)
+        ///            Karl Berry  &lt;karl@freefriends.org&gt;
+        ///            Olaf Bachmann &lt;obachman@mathematik.uni-kl.de&gt;
+        ///            and many others.
+        ///Maintained by: Many creative people.
+        ///Send bugs and suggestions to &lt;texi2html-bug@nongnu.org&gt;
+        ///
+        ///--&gt;
+        ///&lt;head&gt;
+        ///&lt;title&gt;FFmpeg documentation : Developer &lt;/title&gt;
+        ///
+        ///&lt;meta name=&quot;description&quot; content=&quot;Developer Documen [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string developer {
+            get {
+                return ResourceManager.GetString("developer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;!-- Created on March 10, 2014 by texi2html 1.82 --&gt;
+        ///&lt;!--
+        ///texi2html was written by: 
+        ///            Lionel Cons &lt;Lionel.Cons@cern.ch&gt; (original author)
+        ///            Karl Berry  &lt;karl@freefriends.org&gt;
+        ///            Olaf Bachmann &lt;obachman@mathematik.uni-kl.de&gt;
+        ///            and many others.
+        ///Maintained by: Many creative people.
+        ///Send bugs and suggestions to &lt;texi2html-bug@nongnu.org&gt;
+        ///
+        ///--&gt;
+        ///&lt;head&gt;
+        ///&lt;title&gt;FFmpeg documentation : FFmpeg FAQ: &lt;/title&gt;
+        ///
+        ///&lt;meta name=&quot;description&quot; content=&quot;FFmpeg FAQ: &quot;&gt;
+        /// [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string faq {
+            get {
+                return ResourceManager.GetString("faq", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;!-- Created on March 10, 2014 by texi2html 1.82 --&gt;
+        ///&lt;!--
+        ///texi2html was written by: 
+        ///            Lionel Cons &lt;Lionel.Cons@cern.ch&gt; (original author)
+        ///            Karl Berry  &lt;karl@freefriends.org&gt;
+        ///            Olaf Bachmann &lt;obachman@mathematik.uni-kl.de&gt;
+        ///            and many others.
+        ///Maintained by: Many creative people.
+        ///Send bugs and suggestions to &lt;texi2html-bug@nongnu.org&gt;
+        ///
+        ///--&gt;
+        ///&lt;head&gt;
+        ///&lt;title&gt;FFmpeg documentation : FFmpeg Automated Testing Environment: &lt;/title&gt;
+        ///
+        ///&lt;meta name=&quot;description [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string fate {
+            get {
+                return ResourceManager.GetString("fate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] ffmpeg {
+            get {
+                object obj = ResourceManager.GetObject("ffmpeg", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;!-- Created on March 10, 2014 by texi2html 1.82 --&gt;
+        ///&lt;!--
+        ///texi2html was written by: 
+        ///            Lionel Cons &lt;Lionel.Cons@cern.ch&gt; (original author)
+        ///            Karl Berry  &lt;karl@freefriends.org&gt;
+        ///            Olaf Bachmann &lt;obachman@mathematik.uni-kl.de&gt;
+        ///            and many others.
+        ///Maintained by: Many creative people.
+        ///Send bugs and suggestions to &lt;texi2html-bug@nongnu.org&gt;
+        ///
+        ///--&gt;
+        ///&lt;head&gt;
+        ///&lt;title&gt;FFmpeg documentation : ffmpeg &lt;/title&gt;
+        ///
+        ///&lt;meta name=&quot;description&quot; content=&quot;ffmpeg Documentation [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string ffmpeg_all {
+            get {
+                return ResourceManager.GetString("ffmpeg_all", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;!-- Created on March 10, 2014 by texi2html 1.82 --&gt;
+        ///&lt;!--
+        ///texi2html was written by: 
+        ///            Lionel Cons &lt;Lionel.Cons@cern.ch&gt; (original author)
+        ///            Karl Berry  &lt;karl@freefriends.org&gt;
+        ///            Olaf Bachmann &lt;obachman@mathematik.uni-kl.de&gt;
+        ///            and many others.
+        ///Maintained by: Many creative people.
+        ///Send bugs and suggestions to &lt;texi2html-bug@nongnu.org&gt;
+        ///
+        ///--&gt;
+        ///&lt;head&gt;
+        ///&lt;title&gt;FFmpeg documentation : FFmpeg Bitstream Filters &lt;/title&gt;
+        ///
+        ///&lt;meta name=&quot;description&quot; content=&quot;FF [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string ffmpeg_bitstream_filters {
+            get {
+                return ResourceManager.GetString("ffmpeg_bitstream_filters", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;!-- Created on March 10, 2014 by texi2html 1.82 --&gt;
+        ///&lt;!--
+        ///texi2html was written by: 
+        ///            Lionel Cons &lt;Lionel.Cons@cern.ch&gt; (original author)
+        ///            Karl Berry  &lt;karl@freefriends.org&gt;
+        ///            Olaf Bachmann &lt;obachman@mathematik.uni-kl.de&gt;
+        ///            and many others.
+        ///Maintained by: Many creative people.
+        ///Send bugs and suggestions to &lt;texi2html-bug@nongnu.org&gt;
+        ///
+        ///--&gt;
+        ///&lt;head&gt;
+        ///&lt;title&gt;FFmpeg documentation : FFmpeg Codecs &lt;/title&gt;
+        ///
+        ///&lt;meta name=&quot;description&quot; content=&quot;FFmpeg Codecs [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string ffmpeg_codecs {
+            get {
+                return ResourceManager.GetString("ffmpeg_codecs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;!-- Created on March 10, 2014 by texi2html 1.82 --&gt;
+        ///&lt;!--
+        ///texi2html was written by: 
+        ///            Lionel Cons &lt;Lionel.Cons@cern.ch&gt; (original author)
+        ///            Karl Berry  &lt;karl@freefriends.org&gt;
+        ///            Olaf Bachmann &lt;obachman@mathematik.uni-kl.de&gt;
+        ///            and many others.
+        ///Maintained by: Many creative people.
+        ///Send bugs and suggestions to &lt;texi2html-bug@nongnu.org&gt;
+        ///
+        ///--&gt;
+        ///&lt;head&gt;
+        ///&lt;title&gt;FFmpeg documentation : FFmpeg Devices &lt;/title&gt;
+        ///
+        ///&lt;meta name=&quot;description&quot; content=&quot;FFmpeg Devic [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string ffmpeg_devices {
+            get {
+                return ResourceManager.GetString("ffmpeg_devices", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;!-- Created on March 10, 2014 by texi2html 1.82 --&gt;
+        ///&lt;!--
+        ///texi2html was written by: 
+        ///            Lionel Cons &lt;Lionel.Cons@cern.ch&gt; (original author)
+        ///            Karl Berry  &lt;karl@freefriends.org&gt;
+        ///            Olaf Bachmann &lt;obachman@mathematik.uni-kl.de&gt;
+        ///            and many others.
+        ///Maintained by: Many creative people.
+        ///Send bugs and suggestions to &lt;texi2html-bug@nongnu.org&gt;
+        ///
+        ///--&gt;
+        ///&lt;head&gt;
+        ///&lt;title&gt;FFmpeg documentation : FFmpeg Filters &lt;/title&gt;
+        ///
+        ///&lt;meta name=&quot;description&quot; content=&quot;FFmpeg Filte [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string ffmpeg_filters {
+            get {
+                return ResourceManager.GetString("ffmpeg_filters", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;!-- Created on March 10, 2014 by texi2html 1.82 --&gt;
+        ///&lt;!--
+        ///texi2html was written by: 
+        ///            Lionel Cons &lt;Lionel.Cons@cern.ch&gt; (original author)
+        ///            Karl Berry  &lt;karl@freefriends.org&gt;
+        ///            Olaf Bachmann &lt;obachman@mathematik.uni-kl.de&gt;
+        ///            and many others.
+        ///Maintained by: Many creative people.
+        ///Send bugs and suggestions to &lt;texi2html-bug@nongnu.org&gt;
+        ///
+        ///--&gt;
+        ///&lt;head&gt;
+        ///&lt;title&gt;FFmpeg documentation : FFmpeg Formats &lt;/title&gt;
+        ///
+        ///&lt;meta name=&quot;description&quot; content=&quot;FFmpeg Forma [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string ffmpeg_formats {
+            get {
+                return ResourceManager.GetString("ffmpeg_formats", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;!-- Created on March 10, 2014 by texi2html 1.82 --&gt;
+        ///&lt;!--
+        ///texi2html was written by: 
+        ///            Lionel Cons &lt;Lionel.Cons@cern.ch&gt; (original author)
+        ///            Karl Berry  &lt;karl@freefriends.org&gt;
+        ///            Olaf Bachmann &lt;obachman@mathematik.uni-kl.de&gt;
+        ///            and many others.
+        ///Maintained by: Many creative people.
+        ///Send bugs and suggestions to &lt;texi2html-bug@nongnu.org&gt;
+        ///
+        ///--&gt;
+        ///&lt;head&gt;
+        ///&lt;title&gt;FFmpeg documentation : FFmpeg Protocols &lt;/title&gt;
+        ///
+        ///&lt;meta name=&quot;description&quot; content=&quot;FFmpeg Pro [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string ffmpeg_protocols {
+            get {
+                return ResourceManager.GetString("ffmpeg_protocols", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;!-- Created on March 10, 2014 by texi2html 1.82 --&gt;
+        ///&lt;!--
+        ///texi2html was written by: 
+        ///            Lionel Cons &lt;Lionel.Cons@cern.ch&gt; (original author)
+        ///            Karl Berry  &lt;karl@freefriends.org&gt;
+        ///            Olaf Bachmann &lt;obachman@mathematik.uni-kl.de&gt;
+        ///            and many others.
+        ///Maintained by: Many creative people.
+        ///Send bugs and suggestions to &lt;texi2html-bug@nongnu.org&gt;
+        ///
+        ///--&gt;
+        ///&lt;head&gt;
+        ///&lt;title&gt;FFmpeg documentation : FFmpeg Resampler &lt;/title&gt;
+        ///
+        ///&lt;meta name=&quot;description&quot; content=&quot;FFmpeg Res [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string ffmpeg_resampler {
+            get {
+                return ResourceManager.GetString("ffmpeg_resampler", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;!-- Created on March 10, 2014 by texi2html 1.82 --&gt;
+        ///&lt;!--
+        ///texi2html was written by: 
+        ///            Lionel Cons &lt;Lionel.Cons@cern.ch&gt; (original author)
+        ///            Karl Berry  &lt;karl@freefriends.org&gt;
+        ///            Olaf Bachmann &lt;obachman@mathematik.uni-kl.de&gt;
+        ///            and many others.
+        ///Maintained by: Many creative people.
+        ///Send bugs and suggestions to &lt;texi2html-bug@nongnu.org&gt;
+        ///
+        ///--&gt;
+        ///&lt;head&gt;
+        ///&lt;title&gt;FFmpeg documentation : FFmpeg Scaler &lt;/title&gt;
+        ///
+        ///&lt;meta name=&quot;description&quot; content=&quot;FFmpeg Scaler [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string ffmpeg_scaler {
+            get {
+                return ResourceManager.GetString("ffmpeg_scaler", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;!-- Created on March 10, 2014 by texi2html 1.82 --&gt;
+        ///&lt;!--
+        ///texi2html was written by: 
+        ///            Lionel Cons &lt;Lionel.Cons@cern.ch&gt; (original author)
+        ///            Karl Berry  &lt;karl@freefriends.org&gt;
+        ///            Olaf Bachmann &lt;obachman@mathematik.uni-kl.de&gt;
+        ///            and many others.
+        ///Maintained by: Many creative people.
+        ///Send bugs and suggestions to &lt;texi2html-bug@nongnu.org&gt;
+        ///
+        ///--&gt;
+        ///&lt;head&gt;
+        ///&lt;title&gt;FFmpeg documentation : FFmpeg Utilities &lt;/title&gt;
+        ///
+        ///&lt;meta name=&quot;description&quot; content=&quot;FFmpeg Uti [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string ffmpeg_utils {
+            get {
+                return ResourceManager.GetString("ffmpeg_utils", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;!-- Created on March 10, 2014 by texi2html 1.82 --&gt;
+        ///&lt;!--
+        ///texi2html was written by: 
+        ///            Lionel Cons &lt;Lionel.Cons@cern.ch&gt; (original author)
+        ///            Karl Berry  &lt;karl@freefriends.org&gt;
+        ///            Olaf Bachmann &lt;obachman@mathematik.uni-kl.de&gt;
+        ///            and many others.
+        ///Maintained by: Many creative people.
+        ///Send bugs and suggestions to &lt;texi2html-bug@nongnu.org&gt;
+        ///
+        ///--&gt;
+        ///&lt;head&gt;
+        ///&lt;title&gt;FFmpeg documentation : ffmpeg &lt;/title&gt;
+        ///
+        ///&lt;meta name=&quot;description&quot; content=&quot;ffmpeg Documentation [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string ffmpeg1 {
+            get {
+                return ResourceManager.GetString("ffmpeg1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] ffplay {
+            get {
+                object obj = ResourceManager.GetObject("ffplay", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;!-- Created on March 10, 2014 by texi2html 1.82 --&gt;
+        ///&lt;!--
+        ///texi2html was written by: 
+        ///            Lionel Cons &lt;Lionel.Cons@cern.ch&gt; (original author)
+        ///            Karl Berry  &lt;karl@freefriends.org&gt;
+        ///            Olaf Bachmann &lt;obachman@mathematik.uni-kl.de&gt;
+        ///            and many others.
+        ///Maintained by: Many creative people.
+        ///Send bugs and suggestions to &lt;texi2html-bug@nongnu.org&gt;
+        ///
+        ///--&gt;
+        ///&lt;head&gt;
+        ///&lt;title&gt;FFmpeg documentation : ffplay &lt;/title&gt;
+        ///
+        ///&lt;meta name=&quot;description&quot; content=&quot;ffplay Documentation [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string ffplay_all {
+            get {
+                return ResourceManager.GetString("ffplay_all", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;!-- Created on March 10, 2014 by texi2html 1.82 --&gt;
+        ///&lt;!--
+        ///texi2html was written by: 
+        ///            Lionel Cons &lt;Lionel.Cons@cern.ch&gt; (original author)
+        ///            Karl Berry  &lt;karl@freefriends.org&gt;
+        ///            Olaf Bachmann &lt;obachman@mathematik.uni-kl.de&gt;
+        ///            and many others.
+        ///Maintained by: Many creative people.
+        ///Send bugs and suggestions to &lt;texi2html-bug@nongnu.org&gt;
+        ///
+        ///--&gt;
+        ///&lt;head&gt;
+        ///&lt;title&gt;FFmpeg documentation : ffplay &lt;/title&gt;
+        ///
+        ///&lt;meta name=&quot;description&quot; content=&quot;ffplay Documentation [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string ffplay1 {
+            get {
+                return ResourceManager.GetString("ffplay1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] ffprobe {
+            get {
+                object obj = ResourceManager.GetObject("ffprobe", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;!-- Created on March 10, 2014 by texi2html 1.82 --&gt;
+        ///&lt;!--
+        ///texi2html was written by: 
+        ///            Lionel Cons &lt;Lionel.Cons@cern.ch&gt; (original author)
+        ///            Karl Berry  &lt;karl@freefriends.org&gt;
+        ///            Olaf Bachmann &lt;obachman@mathematik.uni-kl.de&gt;
+        ///            and many others.
+        ///Maintained by: Many creative people.
+        ///Send bugs and suggestions to &lt;texi2html-bug@nongnu.org&gt;
+        ///
+        ///--&gt;
+        ///&lt;head&gt;
+        ///&lt;title&gt;FFmpeg documentation : ffprobe &lt;/title&gt;
+        ///
+        ///&lt;meta name=&quot;description&quot; content=&quot;ffprobe Documentati [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string ffprobe_all {
+            get {
+                return ResourceManager.GetString("ffprobe_all", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;!-- Created on March 10, 2014 by texi2html 1.82 --&gt;
+        ///&lt;!--
+        ///texi2html was written by: 
+        ///            Lionel Cons &lt;Lionel.Cons@cern.ch&gt; (original author)
+        ///            Karl Berry  &lt;karl@freefriends.org&gt;
+        ///            Olaf Bachmann &lt;obachman@mathematik.uni-kl.de&gt;
+        ///            and many others.
+        ///Maintained by: Many creative people.
+        ///Send bugs and suggestions to &lt;texi2html-bug@nongnu.org&gt;
+        ///
+        ///--&gt;
+        ///&lt;head&gt;
+        ///&lt;title&gt;FFmpeg documentation : ffprobe &lt;/title&gt;
+        ///
+        ///&lt;meta name=&quot;description&quot; content=&quot;ffprobe Documentati [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string ffprobe1 {
+            get {
+                return ResourceManager.GetString("ffprobe1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to /*
+        /// * copyright (c) 2013 Andrew Kelley
+        /// *
+        /// * This file is part of FFmpeg.
+        /// *
+        /// * FFmpeg is free software; you can redistribute it and/or
+        /// * modify it under the terms of the GNU Lesser General Public
+        /// * License as published by the Free Software Foundation; either
+        /// * version 2.1 of the License, or (at your option) any later version.
+        /// *
+        /// * FFmpeg is distributed in the hope that it will be useful,
+        /// * but WITHOUT ANY WARRANTY; without even the implied warranty of
+        /// * MERCHANTABILITY or FITNESS FOR A PARTICULAR PUR [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string filter_audio {
+            get {
+                return ResourceManager.GetString("filter_audio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to /*
+        /// * Copyright (c) 2010 Nicolas George
+        /// * Copyright (c) 2011 Stefano Sabatini
+        /// * Copyright (c) 2012 Clément Bœsch
+        /// *
+        /// * Permission is hereby granted, free of charge, to any person obtaining a copy
+        /// * of this software and associated documentation files (the &quot;Software&quot;), to deal
+        /// * in the Software without restriction, including without limitation the rights
+        /// * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        /// * copies of the Software, and to permit persons to whom the Software is
+        /// *  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string filtering_audio {
+            get {
+                return ResourceManager.GetString("filtering_audio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to /*
+        /// * Copyright (c) 2010 Nicolas George
+        /// * Copyright (c) 2011 Stefano Sabatini
+        /// *
+        /// * Permission is hereby granted, free of charge, to any person obtaining a copy
+        /// * of this software and associated documentation files (the &quot;Software&quot;), to deal
+        /// * in the Software without restriction, including without limitation the rights
+        /// * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        /// * copies of the Software, and to permit persons to whom the Software is
+        /// * furnished to do so, subject to the f [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string filtering_video {
+            get {
+                return ResourceManager.GetString("filtering_video", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to fontconfig/COPYING
+        ///
+        ///Copyright © 2000,2001,2002,2003,2004,2006,2007 Keith Packard
+        ///Copyright © 2005 Patrick Lam
+        ///Copyright © 2009 Roozbeh Pournader
+        ///Copyright © 2008,2009 Red Hat, Inc.
+        ///Copyright © 2008 Danilo Šegan
+        ///
+        ///
+        ///Permission to use, copy, modify, distribute, and sell this software and its
+        ///documentation for any purpose is hereby granted without fee, provided that
+        ///the above copyright notice appear in all copies and that both that
+        ///copyright notice and this permission notice appear in supporting
+        ///doc [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string fontconfig {
+            get {
+                return ResourceManager.GetString("fontconfig", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                     The FreeType Project LICENSE
+        ///                    ----------------------------
+        ///
+        ///                            2006-Jan-27
+        ///
+        ///                    Copyright 1996-2002, 2006 by
+        ///          David Turner, Robert Wilhelm, and Werner Lemberg
+        ///
+        ///
+        ///
+        ///Introduction
+        ///============
+        ///
+        ///  The FreeType  Project is distributed in  several archive packages;
+        ///  some of them may contain, in addition to the FreeType font engine,
+        ///  various tools and  contributions which rely on, or  relate to, the
+        ///  FreeType  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string freetype {
+            get {
+                return ResourceManager.GetString("freetype", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 		    GNU GENERAL PUBLIC LICENSE
+        ///		       Version 2, June 1991
+        ///
+        /// Copyright (C) 1989, 1991 Free Software Foundation, Inc.
+        ///     51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+        /// Everyone is permitted to copy and distribute verbatim copies
+        /// of this license document, but changing it is not allowed.
+        ///
+        ///			    Preamble
+        ///
+        ///  The licenses for most software are designed to take away your
+        ///freedom to share and change it.  By contrast, the GNU General Public
+        ///License is intended to guarantee your fre [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string frei0r {
+            get {
+                return ResourceManager.GetString("frei0r", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;!-- Created on March 10, 2014 by texi2html 1.82 --&gt;
+        ///&lt;!--
+        ///texi2html was written by: 
+        ///            Lionel Cons &lt;Lionel.Cons@cern.ch&gt; (original author)
+        ///            Karl Berry  &lt;karl@freefriends.org&gt;
+        ///            Olaf Bachmann &lt;obachman@mathematik.uni-kl.de&gt;
+        ///            and many others.
+        ///Maintained by: Many creative people.
+        ///Send bugs and suggestions to &lt;texi2html-bug@nongnu.org&gt;
+        ///
+        ///--&gt;
+        ///&lt;head&gt;
+        ///&lt;title&gt;FFmpeg documentation : General &lt;/title&gt;
+        ///
+        ///&lt;meta name=&quot;description&quot; content=&quot;General Documentati [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string general {
+            get {
+                return ResourceManager.GetString("general", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;!-- Created on March 10, 2014 by texi2html 1.82 --&gt;
+        ///&lt;!--
+        ///texi2html was written by: 
+        ///            Lionel Cons &lt;Lionel.Cons@cern.ch&gt; (original author)
+        ///            Karl Berry  &lt;karl@freefriends.org&gt;
+        ///            Olaf Bachmann &lt;obachman@mathematik.uni-kl.de&gt;
+        ///            and many others.
+        ///Maintained by: Many creative people.
+        ///Send bugs and suggestions to &lt;texi2html-bug@nongnu.org&gt;
+        ///
+        ///--&gt;
+        ///&lt;head&gt;
+        ///&lt;title&gt;FFmpeg documentation : Using git to develop FFmpeg: &lt;/title&gt;
+        ///
+        ///&lt;meta name=&quot;description&quot; content [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string git_howto {
+            get {
+                return ResourceManager.GetString("git_howto", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                     GNU GENERAL PUBLIC LICENSE
+        ///                       Version 3, 29 June 2007
+        ///
+        /// Copyright (C) 2007 Free Software Foundation, Inc. &lt;http://fsf.org/&gt;
+        /// Everyone is permitted to copy and distribute verbatim copies
+        /// of this license document, but changing it is not allowed.
+        ///
+        ///                            Preamble
+        ///
+        ///  The GNU General Public License is a free, copyleft license for
+        ///software and other kinds of works.
+        ///
+        ///  The licenses for most software and other practical works are designed
+        ///to [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string gnutls {
+            get {
+                return ResourceManager.GetString("gnutls", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 		  GNU LIBRARY GENERAL PUBLIC LICENSE
+        ///		       Version 2, June 1991
+        ///
+        /// Copyright (C) 1991 Free Software Foundation, Inc.
+        ///    		    59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+        /// Everyone is permitted to copy and distribute verbatim copies
+        /// of this license document, but changing it is not allowed.
+        ///
+        ///[This is the first released version of the library GPL.  It is
+        /// numbered 2 because it goes with version 2 of the ordinary GPL.]
+        ///
+        ///			    Preamble
+        ///
+        ///  The licenses for most software are designe [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string lame {
+            get {
+                return ResourceManager.GetString("lame", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Permission to use, copy, modify, and/or distribute this software for any
+        ///purpose with or without fee is hereby granted, provided that the above
+        ///copyright notice and this permission notice appear in all copies.
+        ///
+        ///THE SOFTWARE IS PROVIDED &quot;AS IS&quot; AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+        ///WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+        ///MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+        ///ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+        ///WHATSOEVER R [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string libass {
+            get {
+                return ResourceManager.GetString("libass", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;!-- Created on March 10, 2014 by texi2html 1.82 --&gt;
+        ///&lt;!--
+        ///texi2html was written by: 
+        ///            Lionel Cons &lt;Lionel.Cons@cern.ch&gt; (original author)
+        ///            Karl Berry  &lt;karl@freefriends.org&gt;
+        ///            Olaf Bachmann &lt;obachman@mathematik.uni-kl.de&gt;
+        ///            and many others.
+        ///Maintained by: Many creative people.
+        ///Send bugs and suggestions to &lt;texi2html-bug@nongnu.org&gt;
+        ///
+        ///--&gt;
+        ///&lt;head&gt;
+        ///&lt;title&gt;FFmpeg documentation : Libavcodec &lt;/title&gt;
+        ///
+        ///&lt;meta name=&quot;description&quot; content=&quot;Libavcodec Docum [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string libavcodec {
+            get {
+                return ResourceManager.GetString("libavcodec", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;!-- Created on March 10, 2014 by texi2html 1.82 --&gt;
+        ///&lt;!--
+        ///texi2html was written by: 
+        ///            Lionel Cons &lt;Lionel.Cons@cern.ch&gt; (original author)
+        ///            Karl Berry  &lt;karl@freefriends.org&gt;
+        ///            Olaf Bachmann &lt;obachman@mathematik.uni-kl.de&gt;
+        ///            and many others.
+        ///Maintained by: Many creative people.
+        ///Send bugs and suggestions to &lt;texi2html-bug@nongnu.org&gt;
+        ///
+        ///--&gt;
+        ///&lt;head&gt;
+        ///&lt;title&gt;FFmpeg documentation : Libavdevice &lt;/title&gt;
+        ///
+        ///&lt;meta name=&quot;description&quot; content=&quot;Libavdevice Doc [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string libavdevice {
+            get {
+                return ResourceManager.GetString("libavdevice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;!-- Created on March 10, 2014 by texi2html 1.82 --&gt;
+        ///&lt;!--
+        ///texi2html was written by: 
+        ///            Lionel Cons &lt;Lionel.Cons@cern.ch&gt; (original author)
+        ///            Karl Berry  &lt;karl@freefriends.org&gt;
+        ///            Olaf Bachmann &lt;obachman@mathematik.uni-kl.de&gt;
+        ///            and many others.
+        ///Maintained by: Many creative people.
+        ///Send bugs and suggestions to &lt;texi2html-bug@nongnu.org&gt;
+        ///
+        ///--&gt;
+        ///&lt;head&gt;
+        ///&lt;title&gt;FFmpeg documentation : Libavfilter &lt;/title&gt;
+        ///
+        ///&lt;meta name=&quot;description&quot; content=&quot;Libavfilter Doc [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string libavfilter {
+            get {
+                return ResourceManager.GetString("libavfilter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;!-- Created on March 10, 2014 by texi2html 1.82 --&gt;
+        ///&lt;!--
+        ///texi2html was written by: 
+        ///            Lionel Cons &lt;Lionel.Cons@cern.ch&gt; (original author)
+        ///            Karl Berry  &lt;karl@freefriends.org&gt;
+        ///            Olaf Bachmann &lt;obachman@mathematik.uni-kl.de&gt;
+        ///            and many others.
+        ///Maintained by: Many creative people.
+        ///Send bugs and suggestions to &lt;texi2html-bug@nongnu.org&gt;
+        ///
+        ///--&gt;
+        ///&lt;head&gt;
+        ///&lt;title&gt;FFmpeg documentation : Libavformat &lt;/title&gt;
+        ///
+        ///&lt;meta name=&quot;description&quot; content=&quot;Libavformat Doc [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string libavformat {
+            get {
+                return ResourceManager.GetString("libavformat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;!-- Created on March 10, 2014 by texi2html 1.82 --&gt;
+        ///&lt;!--
+        ///texi2html was written by: 
+        ///            Lionel Cons &lt;Lionel.Cons@cern.ch&gt; (original author)
+        ///            Karl Berry  &lt;karl@freefriends.org&gt;
+        ///            Olaf Bachmann &lt;obachman@mathematik.uni-kl.de&gt;
+        ///            and many others.
+        ///Maintained by: Many creative people.
+        ///Send bugs and suggestions to &lt;texi2html-bug@nongnu.org&gt;
+        ///
+        ///--&gt;
+        ///&lt;head&gt;
+        ///&lt;title&gt;FFmpeg documentation : Libavutil &lt;/title&gt;
+        ///
+        ///&lt;meta name=&quot;description&quot; content=&quot;Libavutil Documen [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string libavutil {
+            get {
+                return ResourceManager.GetString("libavutil", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                   GNU LESSER GENERAL PUBLIC LICENSE
+        ///                       Version 2.1, February 1999
+        ///
+        /// Copyright (C) 1991, 1999 Free Software Foundation, Inc.
+        /// 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+        /// Everyone is permitted to copy and distribute verbatim copies
+        /// of this license document, but changing it is not allowed.
+        ///
+        ///[This is the first released version of the Lesser GPL.  It also counts
+        /// as the successor of the GNU Library Public License, version 2, hence
+        /// the version numb [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string libbluray {
+            get {
+                return ResourceManager.GetString("libbluray", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to             DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+        ///                    Version 2, December 2004
+        ///
+        /// Copyright (C) 2004 Sam Hocevar
+        ///  14 rue de Plaisance, 75014 Paris, France
+        /// Everyone is permitted to copy and distribute verbatim or modified
+        /// copies of this license document, and changing it is allowed as long
+        /// as the name is changed.
+        ///
+        ///            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+        ///   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+        ///
+        ///  0. You just DO WHAT THE FUCK YOU WA [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string libcaca {
+            get {
+                return ResourceManager.GetString("libcaca", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Copyright 1992, 1993, 1994 by Jutta Degener and Carsten Bormann,
+        ///Technische Universitaet Berlin
+        ///
+        ///Any use of this software is permitted provided that this notice is not
+        ///removed and that neither the authors nor the Technische Universitaet Berlin
+        ///are deemed to have made any representations as to the suitability of this
+        ///software for any purpose nor are held responsible for any defects of
+        ///this software.  THERE IS ABSOLUTELY NO WARRANTY FOR THIS SOFTWARE.
+        ///
+        ///As a matter of courtesy, the authors request to  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string libgsm {
+            get {
+                return ResourceManager.GetString("libgsm", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                     GNU GENERAL PUBLIC LICENSE
+        ///                       Version 3, 29 June 2007
+        ///
+        /// Copyright (C) 2007 Free Software Foundation, Inc. &lt;http://fsf.org/&gt;
+        /// Everyone is permitted to copy and distribute verbatim copies
+        /// of this license document, but changing it is not allowed.
+        ///
+        ///                            Preamble
+        ///
+        ///  The GNU General Public License is a free, copyleft license for
+        ///software and other kinds of works.
+        ///
+        ///  The licenses for most software and other practical works are designed
+        ///to [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string libiconv {
+            get {
+                return ResourceManager.GetString("libiconv", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Copyright (c) 2011, The WebRTC project authors. All rights reserved.
+        ///
+        ///Redistribution and use in source and binary forms, with or without
+        ///modification, are permitted provided that the following conditions are
+        ///met:
+        ///
+        ///  * Redistributions of source code must retain the above copyright
+        ///    notice, this list of conditions and the following disclaimer.
+        ///
+        ///  * Redistributions in binary form must reproduce the above copyright
+        ///    notice, this list of conditions and the following disclaimer in
+        ///    the documen [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string libilbc {
+            get {
+                return ResourceManager.GetString("libilbc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ModPlug-XMMS and libmodplug are now in the public domain.
+        ///.
+        /// </summary>
+        internal static string libmodplug {
+            get {
+                return ResourceManager.GetString("libmodplug", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;!-- Created on March 10, 2014 by texi2html 1.82 --&gt;
+        ///&lt;!--
+        ///texi2html was written by: 
+        ///            Lionel Cons &lt;Lionel.Cons@cern.ch&gt; (original author)
+        ///            Karl Berry  &lt;karl@freefriends.org&gt;
+        ///            Olaf Bachmann &lt;obachman@mathematik.uni-kl.de&gt;
+        ///            and many others.
+        ///Maintained by: Many creative people.
+        ///Send bugs and suggestions to &lt;texi2html-bug@nongnu.org&gt;
+        ///
+        ///--&gt;
+        ///&lt;head&gt;
+        ///&lt;title&gt;FFmpeg documentation : Libswresample &lt;/title&gt;
+        ///
+        ///&lt;meta name=&quot;description&quot; content=&quot;Libswresample [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string libswresample {
+            get {
+                return ResourceManager.GetString("libswresample", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;!-- Created on March 10, 2014 by texi2html 1.82 --&gt;
+        ///&lt;!--
+        ///texi2html was written by: 
+        ///            Lionel Cons &lt;Lionel.Cons@cern.ch&gt; (original author)
+        ///            Karl Berry  &lt;karl@freefriends.org&gt;
+        ///            Olaf Bachmann &lt;obachman@mathematik.uni-kl.de&gt;
+        ///            and many others.
+        ///Maintained by: Many creative people.
+        ///Send bugs and suggestions to &lt;texi2html-bug@nongnu.org&gt;
+        ///
+        ///--&gt;
+        ///&lt;head&gt;
+        ///&lt;title&gt;FFmpeg documentation : Libswscale &lt;/title&gt;
+        ///
+        ///&lt;meta name=&quot;description&quot; content=&quot;Libswscale Docum [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string libswscale {
+            get {
+                return ResourceManager.GetString("libswscale", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Copyright (C) 2002-2009 Xiph.org Foundation
+        ///
+        ///Redistribution and use in source and binary forms, with or without
+        ///modification, are permitted provided that the following conditions
+        ///are met:
+        ///
+        ///- Redistributions of source code must retain the above copyright
+        ///notice, this list of conditions and the following disclaimer.
+        ///
+        ///- Redistributions in binary form must reproduce the above copyright
+        ///notice, this list of conditions and the following disclaimer in the
+        ///documentation and/or other materials provided wi [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string libtheora {
+            get {
+                return ResourceManager.GetString("libtheora", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Copyright (c) 2002-2008 Xiph.org Foundation
+        ///
+        ///Redistribution and use in source and binary forms, with or without
+        ///modification, are permitted provided that the following conditions
+        ///are met:
+        ///
+        ///- Redistributions of source code must retain the above copyright
+        ///notice, this list of conditions and the following disclaimer.
+        ///
+        ///- Redistributions in binary form must reproduce the above copyright
+        ///notice, this list of conditions and the following disclaimer in the
+        ///documentation and/or other materials provided wi [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string libvorbis {
+            get {
+                return ResourceManager.GetString("libvorbis", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Copyright (c) 2010, The WebM Project authors. All rights reserved.
+        ///
+        ///Redistribution and use in source and binary forms, with or without
+        ///modification, are permitted provided that the following conditions are
+        ///met:
+        ///
+        ///  * Redistributions of source code must retain the above copyright
+        ///    notice, this list of conditions and the following disclaimer.
+        ///
+        ///  * Redistributions in binary form must reproduce the above copyright
+        ///    notice, this list of conditions and the following disclaimer in
+        ///    the documenta [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string libvpx {
+            get {
+                return ResourceManager.GetString("libvpx", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Makefile {
+            get {
+                object obj = ResourceManager.GetObject("Makefile", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to /*
+        /// * Copyright (c) 2011 Reinhard Tartler
+        /// *
+        /// * Permission is hereby granted, free of charge, to any person obtaining a copy
+        /// * of this software and associated documentation files (the &quot;Software&quot;), to deal
+        /// * in the Software without restriction, including without limitation the rights
+        /// * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        /// * copies of the Software, and to permit persons to whom the Software is
+        /// * furnished to do so, subject to the following conditions:
+        /// *
+        /// * The above  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string metadata {
+            get {
+                return ResourceManager.GetString("metadata", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to /*
+        /// * Copyright (c) 2003 Fabrice Bellard
+        /// *
+        /// * Permission is hereby granted, free of charge, to any person obtaining a copy
+        /// * of this software and associated documentation files (the &quot;Software&quot;), to deal
+        /// * in the Software without restriction, including without limitation the rights
+        /// * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        /// * copies of the Software, and to permit persons to whom the Software is
+        /// * furnished to do so, subject to the following conditions:
+        /// *
+        /// * The above c [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string muxing {
+            get {
+                return ResourceManager.GetString("muxing", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;!-- Created on March 10, 2014 by texi2html 1.82 --&gt;
+        ///&lt;!--
+        ///texi2html was written by: 
+        ///            Lionel Cons &lt;Lionel.Cons@cern.ch&gt; (original author)
+        ///            Karl Berry  &lt;karl@freefriends.org&gt;
+        ///            Olaf Bachmann &lt;obachman@mathematik.uni-kl.de&gt;
+        ///            and many others.
+        ///Maintained by: Many creative people.
+        ///Send bugs and suggestions to &lt;texi2html-bug@nongnu.org&gt;
+        ///
+        ///--&gt;
+        ///&lt;head&gt;
+        ///&lt;title&gt;FFmpeg documentation : NUT: &lt;/title&gt;
+        ///
+        ///&lt;meta name=&quot;description&quot; content=&quot;NUT: &quot;&gt;
+        ///&lt;meta name=&quot;ke [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string nut {
+            get {
+                return ResourceManager.GetString("nut", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Apache License
+        ///Version 2.0, January 2004
+        ///http://www.apache.org/licenses/
+        ///
+        ///TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+        ///
+        ///1. Definitions.
+        ///
+        ///&quot;License&quot; shall mean the terms and conditions for use, reproduction, and
+        ///distribution as defined by Sections 1 through 9 of this document.
+        ///
+        ///&quot;Licensor&quot; shall mean the copyright owner or entity authorized by the
+        ///copyright owner that is granting the License.
+        ///
+        ///&quot;Legal Entity&quot; shall mean the union of the acting entity and all other
+        ///entities that co [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string opencore_amr {
+            get {
+                return ResourceManager.GetString("opencore_amr", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to /*
+        /// * Copyright (c) 2002-2012, Communications and Remote Sensing Laboratory, Universite catholique de Louvain (UCL), Belgium
+        /// * Copyright (c) 2002-2012, Professor Benoit Macq
+        /// * Copyright (c) 2003-2012, Antonin Descampe
+        /// * Copyright (c) 2003-2009, Francois-Olivier Devaux
+        /// * Copyright (c) 2005, Herve Drolon, FreeImage Team
+        /// * Copyright (c) 2002-2003, Yannick Verschueren
+        /// * Copyright (c) 2001-2003, David Janssens
+        /// * Copyright (c) 2011-2012, Centre National d&apos;Etudes Spatiales (CNES), France 
+        /// * Copyri [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string openjpeg {
+            get {
+                return ResourceManager.GetString("openjpeg", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Copyright 2001-2011 Xiph.Org, Skype Limited, Octasic,
+        ///                    Jean-Marc Valin, Timothy B. Terriberry,
+        ///                    CSIRO, Gregory Maxwell, Mark Borgerding,
+        ///                    Erik de Castro Lopo
+        ///
+        ///Redistribution and use in source and binary forms, with or without
+        ///modification, are permitted provided that the following conditions
+        ///are met:
+        ///
+        ///- Redistributions of source code must retain the above copyright
+        ///notice, this list of conditions and the following disclaimer.
+        ///
+        ///- Redistribu [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string opus {
+            get {
+                return ResourceManager.GetString("opus", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;!-- Created on March 10, 2014 by texi2html 1.82 --&gt;
+        ///&lt;!--
+        ///texi2html was written by: 
+        ///            Lionel Cons &lt;Lionel.Cons@cern.ch&gt; (original author)
+        ///            Karl Berry  &lt;karl@freefriends.org&gt;
+        ///            Olaf Bachmann &lt;obachman@mathematik.uni-kl.de&gt;
+        ///            and many others.
+        ///Maintained by: Many creative people.
+        ///Send bugs and suggestions to &lt;texi2html-bug@nongnu.org&gt;
+        ///
+        ///--&gt;
+        ///&lt;head&gt;
+        ///&lt;title&gt;FFmpeg documentation : Platform Specific Information: &lt;/title&gt;
+        ///
+        ///&lt;meta name=&quot;description&quot; conte [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string platform {
+            get {
+                return ResourceManager.GetString("platform", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] README {
+            get {
+                object obj = ResourceManager.GetObject("README", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to /*
+        /// * Copyright (c) 2013 Stefano Sabatini
+        /// *
+        /// * Permission is hereby granted, free of charge, to any person obtaining a copy
+        /// * of this software and associated documentation files (the &quot;Software&quot;), to deal
+        /// * in the Software without restriction, including without limitation the rights
+        /// * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        /// * copies of the Software, and to permit persons to whom the Software is
+        /// * furnished to do so, subject to the following conditions:
+        /// *
+        /// * The above  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string remuxing {
+            get {
+                return ResourceManager.GetString("remuxing", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to /*
+        /// * Copyright (c) 2012 Stefano Sabatini
+        /// *
+        /// * Permission is hereby granted, free of charge, to any person obtaining a copy
+        /// * of this software and associated documentation files (the &quot;Software&quot;), to deal
+        /// * in the Software without restriction, including without limitation the rights
+        /// * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        /// * copies of the Software, and to permit persons to whom the Software is
+        /// * furnished to do so, subject to the following conditions:
+        /// *
+        /// * The above  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string resampling_audio {
+            get {
+                return ResourceManager.GetString("resampling_audio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 		    GNU GENERAL PUBLIC LICENSE
+        ///		       Version 2, June 1991
+        ///
+        /// Copyright (C) 1989, 1991 Free Software Foundation, Inc.,
+        /// 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+        /// Everyone is permitted to copy and distribute verbatim copies
+        /// of this license document, but changing it is not allowed.
+        ///
+        ///			    Preamble
+        ///
+        ///  The licenses for most software are designed to take away your
+        ///freedom to share and change it.  By contrast, the GNU General Public
+        ///License is intended to guarantee your freedom  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string rtmpdump {
+            get {
+                return ResourceManager.GetString("rtmpdump", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to /*
+        /// * Copyright (c) 2012 Stefano Sabatini
+        /// *
+        /// * Permission is hereby granted, free of charge, to any person obtaining a copy
+        /// * of this software and associated documentation files (the &quot;Software&quot;), to deal
+        /// * in the Software without restriction, including without limitation the rights
+        /// * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        /// * copies of the Software, and to permit persons to whom the Software is
+        /// * furnished to do so, subject to the following conditions:
+        /// *
+        /// * The above  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string scaling_video {
+            get {
+                return ResourceManager.GetString("scaling_video", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 		  GNU LIBRARY GENERAL PUBLIC LICENSE
+        ///		       Version 2, June 1991
+        ///
+        /// Copyright (C) 1991 Free Software Foundation, Inc.
+        ///                    675 Mass Ave, Cambridge, MA 02139, USA
+        /// Everyone is permitted to copy and distribute verbatim copies
+        /// of this license document, but changing it is not allowed.
+        ///
+        ///[This is the first released version of the library GPL.  It is
+        /// numbered 2 because it goes with version 2 of the ordinary GPL.]
+        ///
+        ///			    Preamble
+        ///
+        ///  The licenses for most software are designed to ta [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string schroedinger {
+            get {
+                return ResourceManager.GetString("schroedinger", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to SoX Resampler Library       Copyright (c) 2007-13 robs@users.sourceforge.net
+        ///
+        ///This library is free software; you can redistribute it and/or modify it
+        ///under the terms of the GNU Lesser General Public License as published by
+        ///the Free Software Foundation; either version 2.1 of the License, or (at
+        ///your option) any later version.
+        ///
+        ///This library is distributed in the hope that it will be useful, but
+        ///WITHOUT ANY WARRANTY; without even the implied warranty of
+        ///MERCHANTABILITY or FITNESS FOR A PARTICULAR PURP [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string soxr {
+            get {
+                return ResourceManager.GetString("soxr", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Copyright 2002-2008 	Xiph.org Foundation
+        ///Copyright 2002-2008 	Jean-Marc Valin
+        ///Copyright 2005-2007	Analog Devices Inc.
+        ///Copyright 2005-2008	Commonwealth Scientific and Industrial Research 
+        ///                        Organisation (CSIRO)
+        ///Copyright 1993, 2002, 2006 David Rowe
+        ///Copyright 2003 		EpicGames
+        ///Copyright 1992-1994	Jutta Degener, Carsten Bormann
+        ///
+        ///Redistribution and use in source and binary forms, with or without
+        ///modification, are permitted provided that the following conditions
+        ///are met:
+        ///
+        ///- Redi [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string speex {
+            get {
+                return ResourceManager.GetString("speex", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to /*
+        /// * This file is part of FFmpeg.
+        /// *
+        /// * FFmpeg is free software; you can redistribute it and/or
+        /// * modify it under the terms of the GNU Lesser General Public
+        /// * License as published by the Free Software Foundation; either
+        /// * version 2.1 of the License, or (at your option) any later version.
+        /// *
+        /// * FFmpeg is distributed in the hope that it will be useful,
+        /// * but WITHOUT ANY WARRANTY; without even the implied warranty of
+        /// * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+        /// * Lesser General Pu [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string transcode_aac {
+            get {
+                return ResourceManager.GetString("transcode_aac", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 		  GNU LESSER GENERAL PUBLIC LICENSE
+        ///		       Version 2.1, February 1999
+        ///
+        /// Copyright (C) 1991, 1999 Free Software Foundation, Inc.
+        ///     59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+        /// Everyone is permitted to copy and distribute verbatim copies
+        /// of this license document, but changing it is not allowed.
+        ///
+        ///[This is the first released version of the Lesser GPL.  It also counts
+        /// as the successor of the GNU Library Public License, version 2, hence
+        /// the version number 2.1.]
+        ///
+        ///			    Preamble
+        /// [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string twolame {
+            get {
+                return ResourceManager.GetString("twolame", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to In this project is open source in the sense of the GPL.
+        ///
+        /// *   This program is free software; you can redistribute it and/or modify  *
+        /// *   it under the terms of the GNU General Public License as published by  *
+        /// *   the Free Software Foundation; either version 2 of the License, or     *
+        /// *   (at your option) any later version.                                   *
+        /// *                                                                         *
+        /// *   You should have received a copy of the GNU General Public  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string vid_stab {
+            get {
+                return ResourceManager.GetString("vid_stab", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Apache License
+        ///Version 2.0, January 2004
+        ///http://www.apache.org/licenses/
+        ///
+        ///TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+        ///
+        ///1. Definitions.
+        ///
+        ///&quot;License&quot; shall mean the terms and conditions for use, reproduction, and
+        ///distribution as defined by Sections 1 through 9 of this document.
+        ///
+        ///&quot;Licensor&quot; shall mean the copyright owner or entity authorized by the
+        ///copyright owner that is granting the License.
+        ///
+        ///&quot;Legal Entity&quot; shall mean the union of the acting entity and all other
+        ///entities that co [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string vo_aacenc {
+            get {
+                return ResourceManager.GetString("vo_aacenc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Apache License
+        ///Version 2.0, January 2004
+        ///http://www.apache.org/licenses/
+        ///
+        ///TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+        ///
+        ///1. Definitions.
+        ///
+        ///&quot;License&quot; shall mean the terms and conditions for use, reproduction, and
+        ///distribution as defined by Sections 1 through 9 of this document.
+        ///
+        ///&quot;Licensor&quot; shall mean the copyright owner or entity authorized by the
+        ///copyright owner that is granting the License.
+        ///
+        ///&quot;Legal Entity&quot; shall mean the union of the acting entity and all other
+        ///entities that co [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string vo_amrwbenc {
+            get {
+                return ResourceManager.GetString("vo_amrwbenc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                Copyright (c) 1998 - 2009 Conifer Software
+        ///                          All rights reserved.
+        ///
+        ///Redistribution and use in source and binary forms, with or without
+        ///modification, are permitted provided that the following conditions are met:
+        ///
+        ///    * Redistributions of source code must retain the above copyright notice,
+        ///      this list of conditions and the following disclaimer.
+        ///    * Redistributions in binary form must reproduce the above copyright notice,
+        ///      this list of conditions and th [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string wavpack {
+            get {
+                return ResourceManager.GetString("wavpack", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 		    GNU GENERAL PUBLIC LICENSE
+        ///		       Version 2, June 1991
+        ///
+        /// Copyright (C) 1989, 1991 Free Software Foundation, Inc.
+        ///     59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+        /// Everyone is permitted to copy and distribute verbatim copies
+        /// of this license document, but changing it is not allowed.
+        ///
+        ///			    Preamble
+        ///
+        ///  The licenses for most software are designed to take away your
+        ///freedom to share and change it.  By contrast, the GNU General Public
+        ///License is intended to guarantee your freedom  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string x264 {
+            get {
+                return ResourceManager.GetString("x264", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 		    GNU GENERAL PUBLIC LICENSE
+        ///		       Version 2, June 1991
+        ///
+        /// Copyright (C) 1989, 1991 Free Software Foundation, Inc.
+        ///     59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+        /// Everyone is permitted to copy and distribute verbatim copies
+        /// of this license document, but changing it is not allowed.
+        ///
+        ///			    Preamble
+        ///
+        ///  The licenses for most software are designed to take away your
+        ///freedom to share and change it.  By contrast, the GNU General Public
+        ///License is intended to guarantee your freedom  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string x265 {
+            get {
+                return ResourceManager.GetString("x265", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                     GNU GENERAL PUBLIC LICENSE
+        ///                       Version 3, 29 June 2007
+        ///
+        /// Copyright (C) 2007 Free Software Foundation, Inc. &lt;http://fsf.org/&gt;
+        /// Everyone is permitted to copy and distribute verbatim copies
+        /// of this license document, but changing it is not allowed.
+        ///
+        ///                            Preamble
+        ///
+        ///  The GNU General Public License is a free, copyleft license for
+        ///software and other kinds of works.
+        ///
+        ///  The licenses for most software and other practical works are designed
+        ///to [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string xavs {
+            get {
+                return ResourceManager.GetString("xavs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 		    GNU GENERAL PUBLIC LICENSE
+        ///		       Version 2, June 1991
+        ///
+        /// Copyright (C) 1989, 1991 Free Software Foundation, Inc.
+        /// 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+        /// Everyone is permitted to copy and distribute verbatim copies
+        /// of this license document, but changing it is not allowed.
+        ///
+        ///			    Preamble
+        ///
+        ///  The licenses for most software are designed to take away your
+        ///freedom to share and change it.  By contrast, the GNU General Public
+        ///License is intended to guarantee your freedom to s [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string xvid {
+            get {
+                return ResourceManager.GetString("xvid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to /* zlib.h -- interface of the &apos;zlib&apos; general purpose compression library
+        ///  version 1.2.7, May 2nd, 2012
+        ///
+        ///  Copyright (C) 1995-2012 Jean-loup Gailly and Mark Adler
+        ///
+        ///  This software is provided &apos;as-is&apos;, without any express or implied
+        ///  warranty.  In no event will the authors be held liable for any damages
+        ///  arising from the use of this software.
+        ///
+        ///  Permission is granted to anyone to use this software for any purpose,
+        ///  including commercial applications, and to alter it and redistribute it
+        ///  freely, [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string zlib {
+            get {
+                return ResourceManager.GetString("zlib", resourceCulture);
             }
         }
     }

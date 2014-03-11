@@ -46,7 +46,7 @@
     
     mimetype: application/x-microsoft.net.object.binary.base64
     value   : The object must be serialized with 
-            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
     
     mimetype: application/x-microsoft.net.object.soap.base64
@@ -60,6 +60,7 @@
             : and then encoded with base64 encoding.
     -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
@@ -68,9 +69,10 @@
               <xsd:sequence>
                 <xsd:element name="value" type="xsd:string" minOccurs="0" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="name" use="required" type="xsd:string" />
               <xsd:attribute name="type" type="xsd:string" />
               <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
@@ -85,9 +87,10 @@
                 <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
                 <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
               <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
               <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
@@ -109,9 +112,247 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="avcodec" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\examples\avcodec.c;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="avio_reading" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\examples\avio_reading.c;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="bzip2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\licenses\bzip2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="demuxing_decoding" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\examples\demuxing_decoding.c;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="developer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\developer.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="faq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\faq.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="fate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\fate.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="ffmpeg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\bin\ffmpeg.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ffmpeg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\ffmpeg.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="ffmpeg_all" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\ffmpeg-all.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ffmpeg_bitstream_filters" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\ffmpeg-bitstream-filters.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="ffmpeg_codecs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\ffmpeg-codecs.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="ffmpeg_devices" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\ffmpeg-devices.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="ffmpeg_filters" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\ffmpeg-filters.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ffmpeg_formats" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\ffmpeg-formats.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="ffmpeg_protocols" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\ffmpeg-protocols.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="ffmpeg_resampler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\ffmpeg-resampler.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="ffmpeg_scaler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\ffmpeg-scaler.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="ffmpeg_utils" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\ffmpeg-utils.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="ffplay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\bin\ffplay.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ffplay1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\ffplay.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="ffplay_all" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\ffplay-all.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ffprobe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\bin\ffprobe.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ffprobe1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\ffprobe.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="ffprobe_all" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\ffprobe-all.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="filtering_audio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\examples\filtering_audio.c;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="filtering_video" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\examples\filtering_video.c;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="filter_audio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\examples\filter_audio.c;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="fontconfig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\licenses\fontconfig.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="freetype" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\licenses\freetype.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="frei0r" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\licenses\frei0r.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="general" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\general.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="git_howto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\git-howto.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="gnutls" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\licenses\gnutls.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="lame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\licenses\lame.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="libass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\licenses\libass.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="libavcodec" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\libavcodec.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="libavdevice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\libavdevice.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="libavfilter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\libavfilter.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="libavformat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\libavformat.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="libavutil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\libavutil.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="libbluray" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\licenses\libbluray.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="libcaca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\licenses\libcaca.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="libgsm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\licenses\libgsm.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="libiconv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\licenses\libiconv.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="libilbc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\licenses\libilbc.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="libmodplug" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\licenses\libmodplug.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="libswresample" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\libswresample.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="libswscale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\libswscale.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="libtheora" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\licenses\libtheora.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="libvorbis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\licenses\libvorbis.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="libvpx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\licenses\libvpx.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Makefile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\examples\Makefile;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="metadata" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\examples\metadata.c;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="muxing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\examples\muxing.c;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="nut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\nut.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="opencore_amr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\licenses\opencore-amr.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="openjpeg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\licenses\openjpeg.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="opus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\licenses\opus.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="platform" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\platform.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="README" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\examples\README;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="remuxing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\examples\remuxing.c;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="resampling_audio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\examples\resampling_audio.c;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="rtmpdump" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\licenses\rtmpdump.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="scaling_video" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\examples\scaling_video.c;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="schroedinger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\licenses\schroedinger.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="soxr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\licenses\soxr.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="speex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\licenses\speex.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="transcode_aac" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\doc\examples\transcode_aac.c;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="twolame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\licenses\twolame.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="vid_stab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\licenses\vid.stab.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="vo_aacenc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\licenses\vo-aacenc.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="vo_amrwbenc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\licenses\vo-amrwbenc.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="wavpack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\licenses\wavpack.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="x264" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\licenses\x264.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="x265" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\licenses\x265.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="xavs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\licenses\xavs.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="xvid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\licenses\xvid.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="zlib" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\vendor\ffmpeg\licenses\zlib.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
 </root>
